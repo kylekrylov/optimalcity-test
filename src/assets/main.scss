@@ -1,0 +1,16 @@
+@import './style/reset';
+@import './style/root';
+@import './style/base';
+
+@import './style/tipografia';
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-weight: normal;
+  line-height: 150%;
+  overflow-x: hidden;
+}
+
